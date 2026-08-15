@@ -8,7 +8,13 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 test("README visual assets and local links are valid", async () => {
   const readme = await fs.readFile(path.join(root, "README.md"), "utf8");
+  const license = await fs.readFile(path.join(root, "LICENSE"), "utf8");
+  const hero = await fs.readFile(path.join(root, "assets", "revenue-coach-hero.svg"), "utf8");
   assert.match(readme, /assets\/revenue-coach-hero\.svg/);
+  assert.match(readme, /© 2026 Enphision Labs/);
+  assert.match(license, /Copyright \(c\) 2026 Enphision Labs/);
+  assert.doesNotMatch(`${readme}\n${license}`, /Ikram Ikhsan Rafif/i);
+  assert.match(hero, /text-anchor="middle"/);
   assert.ok((readme.match(/```mermaid/g) ?? []).length >= 3);
 
   const destinations = [

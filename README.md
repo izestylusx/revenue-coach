@@ -312,6 +312,6 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a feature. New complexi
 
 ## License
 
-[MIT](LICENSE) © 2026 Ikram Ikhsan Rafif.
+[MIT](LICENSE) © 2026 Enphision Labs.
 
 Revenue Coach is educational and operational support. Outcomes remain uncertain; market conditions, execution, timing, and chance all matter.
