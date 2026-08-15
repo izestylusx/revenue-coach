@@ -29,6 +29,18 @@ For compounding a proven channel, productizing repeated delivery, or creating le
 
 Modes are sequencing tools, not identities. The user may move backward temporarily when pipeline or runway changes.
 
+## Adaptive collaboration
+
+The agent is not limited to coaching and is not authorized to take over everything. It assigns a collaboration mode per material workstream:
+
+- `coach`: the user decides and executes;
+- `assist`: the agent supplies raw material;
+- `co-create`: both iterate on the deliverable;
+- `execute`: the agent produces the agreed internal artifact;
+- `operate`: the agent repeats a proven procedure under defined gates.
+
+The mode is based on capability, evidence, ownership, capacity, and whether the objective is learning, speed, authorship, or a hybrid. Skill level never decides delegation by itself. See [Adaptive Collaboration](adaptive-collaboration.md).
+
 ## Evidence hierarchy
 
 Evidence becomes stronger as it approaches exchange and outcomes:
@@ -57,8 +69,26 @@ Software and automation require observed demand or repeated manual friction, a s
 3. Locate the earliest revenue bottleneck.
 4. Choose Cash now, Stabilize, or Build.
 5. Recommend one move with explicit tradeoffs.
-6. Execute or draft the smallest enabling artifact.
-7. End with a 15–45 minute action contract and review time.
+6. Establish or reuse the workstream ownership map.
+7. Execute, co-create, or coach the smallest representative artifact.
+8. Route only the tools and optional support required by agent-owned work.
+9. End with a 15–45 minute action contract and review time.
+
+## POC before production
+
+Creative, research, and operational work starts with a representative proof of concept when quality or direction is uncertain. The POC must test the riskiest assumptions in the intended format. Batch work begins after the agreed checkpoint, not after building an automation layer.
+
+## Online and local opportunities
+
+Opportunity selection may include freelance services, digital products, employment, gig work, and local offline paths. Location-dependent claims must be current and verified: platform coverage, registration status, eligibility, operating costs, and local demand are separate questions. City or regency is usually enough; the framework does not require an exact home address.
+
+When income is urgent, the framework may distinguish bridge income from a stronger compounding path while preserving one primary experiment.
+
+## Tools and delegation
+
+The framework routes from the approved job to the minimum tool. It distinguishes tools that are available now, connectable with permission, manual or external, and unavailable. It never claims that a recommended plugin or MCP server is already callable.
+
+If the host supports subagents, the main agent may delegate bounded, independent, AI-owned work. It remains responsible for context, integration, evidence, and approval gates. The workflow degrades cleanly to one agent.
 
 ## Scoreboard
 
@@ -66,4 +96,4 @@ Core metrics are attempts, replies, qualified conversations, offers, paid commit
 
 ## Safety and autonomy
 
-The agent may draft and analyze. External messages, publication, purchases, terms, pricing commitments, and account actions require explicit user confirmation. The coach does not guarantee income, fabricate evidence, or replace regulated professional advice.
+The agent may analyze and execute approved internal deliverables. External messages, publication, purchases, terms, pricing commitments, applications, sensitive uploads, and account actions require explicit user confirmation. The coach does not guarantee income, fabricate evidence, or replace regulated professional advice.

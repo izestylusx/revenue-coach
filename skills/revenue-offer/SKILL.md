@@ -5,13 +5,15 @@ compatibility: Works with Agent Skills-compatible coding agents; web research is
 license: MIT
 metadata:
   author: izestylusx
-  version: "0.1.0"
+  version: "0.2.0"
   framework: revenue-coach
 ---
 
 # Smallest Credible Offer
 
 Create something the user can discuss or sell before building infrastructure.
+
+Respect the collaboration contract. A user may own positioning while the agent drafts scope and copy, or may ask the agent to execute the whole internal offer artifact. Do not infer that split from experience level.
 
 ## Evidence first
 

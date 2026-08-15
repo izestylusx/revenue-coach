@@ -17,14 +17,15 @@ Use ranges and aliases when possible.
 
 ## Files
 
-- `PROFILE.md`: relatively stable goals, capacity, constraints, strengths, and boundaries.
-- `STATE.md`: the current mode, offer, bottleneck, evidence, WIP, and next action.
+- `PROFILE.md`: relatively stable goals, capacity, constraints, strengths, collaboration preferences, tool limits, and boundaries.
+- `STATE.md`: the current mode, offer, bottleneck, evidence, active ownership map, POC, WIP, and next action.
 - `PIPELINE.csv`: minimum prospect pipeline; use aliases when privacy matters.
 - `LOG.md`: short dated actions, evidence, learning, and decisions.
 
 ## Update rules
 
 - Update only after a material decision, completed action, or new evidence.
+- Update capability or assistance mode only from user correction, observed work, or a reviewed POC; never from a stereotype or title.
 - Append evidence to `LOG.md`; do not rewrite history to make progress look cleaner.
 - Keep `STATE.md` current and short. Move obsolete detail to the log or delete it.
 - Label unverified claims as hypotheses.
@@ -32,7 +33,7 @@ Use ranges and aliases when possible.
 
 ## Session start
 
-Read `PROFILE.md`, `STATE.md`, and only the latest relevant part of `LOG.md`. Read `PIPELINE.csv` only when the bottleneck involves acquisition or follow-up.
+Read `PROFILE.md`, `STATE.md`, and only the latest relevant part of `LOG.md`. Read `PIPELINE.csv` only when the bottleneck involves acquisition or follow-up. Reconfirm the active collaboration contract only when a new workstream, material risk, or mismatch appears.
 
 ## Session end
 
@@ -41,6 +42,7 @@ Record at most:
 - what was done;
 - what evidence appeared;
 - what was learned or decided;
+- any justified ownership, assistance-mode, tool, or checkpoint change;
 - the next action and review date.
 
 Never let state maintenance consume more time than the market-facing action it supports.

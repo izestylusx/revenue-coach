@@ -16,6 +16,9 @@ Revenue Coach installs text instructions and local templates. It does not requir
 - overwriting locally customized skills;
 - leaking sensitive commercial state through version control;
 - an agent taking an external action without adequate confirmation;
+- a connected tool receiving data beyond what the approved deliverable requires;
+- an agent claiming a plugin, MCP server, or subagent capability that is not actually available;
+- delegated work escaping its task, data, or approval boundary;
 - persuasive or deceptive business tactics generated from ambiguous requests.
 
 ## Controls
@@ -26,6 +29,8 @@ Revenue Coach installs text instructions and local templates. It does not requir
 - Forced replacements and uninstalls create recoverable copies outside skill discovery.
 - Generated state files are git-ignored by default.
 - Core instructions prohibit credentials in state and require explicit confirmation for external actions.
+- Tool routing distinguishes available, connectable, manual, and unavailable capabilities before use.
+- Subagent delegation is optional, bounded to AI-owned work, and integrated by the main agent.
 
 ## User responsibilities
 

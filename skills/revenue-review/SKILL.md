@@ -5,7 +5,7 @@ compatibility: Works with Agent Skills-compatible coding agents; optional state 
 license: MIT
 metadata:
   author: izestylusx
-  version: "0.1.0"
+  version: "0.2.0"
   framework: revenue-coach
 ---
 
@@ -36,6 +36,7 @@ Vanity metrics may be noted but must not substitute for pipeline evidence.
 4. Friction: where did the system or behavior break?
 5. Economics: does the path appear viable at the current scope and price?
 6. Focus: does the primary experiment continue, change, or stop?
+7. Collaboration: did the work split, tool path, and checkpoints help or obstruct delivery?
 
 Do not punish missed actions. Distinguish an invalid hypothesis from an unexecuted test.
 
@@ -57,3 +58,4 @@ Provide:
 - the next week's single bottleneck and evidence target;
 - one Monday or next-session action taking 15–45 minutes;
 - any state updates, only if persistence is authorized.
+- any capability, ownership, assistance-mode, or tool-routing change justified by observed work.

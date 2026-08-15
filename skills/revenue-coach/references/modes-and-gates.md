@@ -2,6 +2,8 @@
 
 Use modes to choose sequence, not to label the user permanently. Reassess after meaningful evidence or a material change in runway.
 
+Revenue mode and collaboration mode are independent. `Cash now`, `Stabilize`, and `Build` decide business sequence; `coach`, `assist`, `co-create`, `execute`, and `operate` decide who does each workstream. A Cash now user may still own all delivery, and a Build user may delegate production.
+
 ## Mode 1: Cash now
 
 Use when income is urgent, runway is short, or no reliable acquisition path exists.
@@ -13,6 +15,7 @@ Default actions:
 - contact warm leads and relevant communities;
 - sell a diagnostic, implementation, repair, research, writing, design, or advisory service;
 - use existing proof and capability;
+- use existing tools or agent execution where it shortens delivery without creating infrastructure;
 - ask for a deposit or small paid pilot;
 - deliver manually and capture language, objections, and outcomes.
 
@@ -51,6 +54,7 @@ Default actions:
 - deepen a proven distribution channel;
 - create reusable intellectual property from delivered work;
 - delegate a stable procedure;
+- use `operate` only for a proven, bounded procedure with explicit exception and external-action gates;
 - build software only from observed customer and workflow evidence.
 
 Protect cashflow: keep a defined minimum of selling and delivery activity while building. If pipeline falls below that floor, return temporarily to Cash now or Stabilize.

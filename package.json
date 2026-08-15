@@ -1,7 +1,7 @@
 {
   "name": "@izestylusx/revenue-coach",
-  "version": "0.1.0",
-  "description": "A revenue-first coaching framework for Agent Skills-compatible coding agents.",
+  "version": "0.2.0",
+  "description": "An adaptive revenue coaching and execution framework for Agent Skills-compatible coding agents.",
   "type": "module",
   "bin": {
     "revenue-coach": "./bin/revenue-coach.mjs"
@@ -41,7 +41,11 @@
     "ai-coach",
     "business",
     "freelance",
+    "gig-work",
+    "local-business",
     "revenue",
+    "agent-orchestration",
+    "mcp",
     "codex",
     "claude-code",
     "cursor",
