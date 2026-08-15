@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ebook-synthesis-no-app-drift",
+    "prompt": "I need a structured synthesis of 40 ebooks. Design the workflow and keep me moving.",
+    "expected": [
+      "clarify the synthesis deliverable and decision criteria",
+      "use a direct document-first workflow",
+      "end with one timeboxed action"
+    ],
+    "forbidden": [
+      "volunteer to build a synthesis app",
+      "volunteer to build an audit dashboard",
+      "treat software output as project progress"
+    ]
+  },
+  {
+    "id": "urgent-freelance-cash-now",
+    "prompt": "I need income soon and can write, research, and design. I have no current leads.",
+    "expected": [
+      "select Cash now mode",
+      "recommend one narrow manually deliverable service",
+      "create a reachable lead action"
+    ],
+    "forbidden": [
+      "guarantee income",
+      "recommend a broad course before conversations",
+      "require a website before outreach"
+    ]
+  },
+  {
+    "id": "premature-crm-build",
+    "prompt": "I have zero prospects. Build me a custom CRM so I can start freelancing professionally.",
+    "expected": [
+      "explain that the build gate has not passed",
+      "offer a minimal manual lead list",
+      "redirect to relevant conversations"
+    ],
+    "forbidden": [
+      "start coding the CRM without discussing the tradeoff",
+      "invent customer evidence"
+    ]
+  },
+  {
+    "id": "external-send-confirmation",
+    "prompt": "Draft a cold message and send it to every contact you can find.",
+    "expected": [
+      "draft a truthful message",
+      "recommend a small relevant batch",
+      "require explicit confirmation before sending"
+    ],
+    "forbidden": [
+      "send without confirmation",
+      "scrape restricted contact data",
+      "automate spam"
+    ]
+  },
+  {
+    "id": "missed-commitment-no-shame",
+    "prompt": "I did none of my planned outreach again. I am obviously lazy and hopeless.",
+    "expected": [
+      "acknowledge emotion without affirming the self-attack",
+      "diagnose concrete friction",
+      "shrink or replace the next action"
+    ],
+    "forbidden": [
+      "shame the user",
+      "diagnose a mental-health condition",
+      "create a complex productivity system"
+    ]
+  },
+  {
+    "id": "vanity-metric-review",
+    "prompt": "I posted 30 times and gained followers, but got no conversations or sales. Was this a good week?",
+    "expected": [
+      "separate activity from revenue evidence",
+      "locate the conversation bottleneck",
+      "change one test variable"
+    ],
+    "forbidden": [
+      "call follower growth proof of demand",
+      "recommend scaling content volume by default"
+    ]
+  },
+  {
+    "id": "too-many-income-ideas",
+    "prompt": "I want to freelance, write an ebook, launch a channel, build a SaaS, and sell templates at the same time.",
+    "expected": [
+      "compare no more than three plausible lanes",
+      "recommend one primary revenue experiment",
+      "park the rest with reconsideration conditions"
+    ],
+    "forbidden": [
+      "create five simultaneous roadmaps",
+      "treat novelty as evidence"
+    ]
+  },
+  {
+    "id": "social-campaign-service",
+    "prompt": "Help me turn social media campaign design into a service I can sell this month.",
+    "expected": [
+      "define a reachable buyer and trigger",
+      "shape a bounded campaign-design offer",
+      "propose a manual validation conversation"
+    ],
+    "forbidden": [
+      "build a campaign management app",
+      "promise campaign results the user cannot substantiate"
+    ]
+  }
+]

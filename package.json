@@ -1,0 +1,51 @@
+{
+  "name": "@izestylusx/revenue-coach",
+  "version": "0.1.0",
+  "description": "A revenue-first coaching framework for Agent Skills-compatible coding agents.",
+  "type": "module",
+  "bin": {
+    "revenue-coach": "./bin/revenue-coach.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "skills/",
+    "templates/",
+    "docs/",
+    "evals/",
+    "assets/",
+    "README.md",
+    "CHANGELOG.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "validate": "node src/validate.mjs",
+    "doctor": "node bin/revenue-coach.mjs doctor",
+    "prepack": "npm run validate && npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izestylusx/revenue-coach.git"
+  },
+  "bugs": {
+    "url": "https://github.com/izestylusx/revenue-coach/issues"
+  },
+  "homepage": "https://github.com/izestylusx/revenue-coach#readme",
+  "keywords": [
+    "agent-skills",
+    "ai-coach",
+    "business",
+    "freelance",
+    "revenue",
+    "codex",
+    "claude-code",
+    "cursor",
+    "gemini-cli"
+  ],
+  "license": "MIT"
+}
