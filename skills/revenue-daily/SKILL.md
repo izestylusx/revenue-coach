@@ -5,7 +5,7 @@ compatibility: Works with Agent Skills-compatible coding agents; optional state 
 license: MIT
 metadata:
   author: izestylusx
-  version: "0.1.0"
+  version: "0.2.0"
   framework: revenue-coach
 ---
 
@@ -31,10 +31,12 @@ Return only what helps execution:
 - Evidence: distinguish action from result.
 - Bottleneck: name the earliest blocked stage.
 - Recommendation: one move and one sentence of reasoning.
-- Action contract: exact target, artifact or behavior, 15–45 minute timebox, “done when,” and review time.
+- Action contract: owner (`user`, `agent`, or `shared`), exact target, artifact or behavior, 15–45 minute timebox, “done when,” and review time.
 - Parking lot: at most one distraction to ignore today.
 
 If a commitment was missed, diagnose friction without shame. Shrink, clarify, or replace the action. Do not respond by adding a more elaborate productivity system.
+
+If the agent owns the blocked work, create the agreed draft or POC instead of assigning it back to the user. If the current split caused friction, recalibrate the collaboration mode explicitly.
 
 ## Safety and anti-drift
 

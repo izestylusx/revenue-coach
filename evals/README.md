@@ -1,6 +1,6 @@
 # Behavior Evaluation Cases
 
-`cases.json` captures high-risk scenarios for Revenue Coach: app drift, urgent cashflow, premature tooling, external actions, shame, vanity metrics, excessive WIP, and a non-software creative service.
+`cases.json` captures high-risk scenarios for Revenue Coach: app drift, urgent cashflow, premature tooling, external actions, shame, vanity metrics, excessive WIP, adaptive collaboration, AI execution, local opportunity research, tool verification, and bounded subagent delegation.
 
 These are behavioral specifications, not claims that static tests can prove model behavior. Use them when evaluating a change against a supported agent and model:
 

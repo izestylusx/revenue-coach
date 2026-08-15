@@ -3,7 +3,7 @@ import { inspectInstallation, initWorkspace, installSkills, uninstallSkills } fr
 import { SUPPORTED_AGENTS, targetDescription } from "./targets.mjs";
 import { validateSkills } from "./validate.mjs";
 
-const HELP = `Revenue Coach — revenue-first coaching skills for coding agents
+const HELP = `Revenue Coach — adaptive revenue coaching and execution skills for coding agents
 
 Usage:
   revenue-coach install [options]
@@ -77,7 +77,7 @@ export async function run(argv) {
   if (command === "install") {
     printResult(await installSkills(options));
     console.log(`Target family: ${targetDescription(options.agent)}`);
-    console.log("Next: run `revenue-coach init` in the business project, then ask your agent for a revenue diagnosis.");
+    console.log("Next: run `revenue-coach init` in the business project, then ask your agent for a revenue diagnosis and collaboration map.");
     return;
   }
   if (command === "uninstall") {

@@ -5,7 +5,7 @@ compatibility: Works with Agent Skills-compatible coding agents; no project-mana
 license: MIT
 metadata:
   author: izestylusx
-  version: "0.1.0"
+  version: "0.2.0"
   framework: revenue-coach
 ---
 
@@ -22,6 +22,7 @@ Confirm or infer:
 - one manually deliverable offer hypothesis;
 - realistic daily capacity;
 - a reachable lead source.
+- a lightweight ownership map for the workstreams required in this sprint.
 
 If these are not available, run a brief diagnosis first. Do not fill uncertainty with invented detail.
 
@@ -31,6 +32,7 @@ If these are not available, run a brief diagnosis first. Do not fill uncertainty
 - WIP: one primary revenue experiment and at most one supporting asset.
 - Contact before polish: no website, app, CRM, automation, or full brand package.
 - Create only assets required for the next contact or paid delivery.
+- Build one representative POC before batching agent-executed creative or production work.
 - Track actions and evidence separately. Completion without a market response is activity, not validation.
 - Require explicit confirmation before sending, publishing, purchasing, or committing externally.
 
@@ -53,5 +55,6 @@ Produce:
 - Scoreboard: outreach attempts, replies, qualified conversations, proposals, paid commitments, cash received, and delivery results.
 - Stop or change conditions: what evidence would cause a pivot, continuation, or escalation.
 - Not now list: tempting work deliberately excluded.
+- Collaboration plan: what the user, agent, tools, and optional subagents own, with the next approval gate.
 
 End by assigning only today's 15–45 minute action. Do not overwhelm the user with every future task at once.

@@ -5,7 +5,7 @@ compatibility: Works with Agent Skills-compatible coding agents. External sendin
 license: MIT
 metadata:
   author: izestylusx
-  version: "0.1.0"
+  version: "0.2.0"
   framework: revenue-coach
 ---
 
@@ -62,3 +62,5 @@ Provide:
 - one 15–45 minute action.
 
 If requested to send messages, pause for explicit confirmation and use only an authorized tool or account.
+
+Draft, critique, co-create, or execute internal outreach assets according to the active collaboration contract. External sending remains a separate exact-action gate in every mode.

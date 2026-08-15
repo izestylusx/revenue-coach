@@ -1,6 +1,6 @@
 # Panduan Singkat Bahasa Indonesia
 
-Revenue Coach mengubah coding agent menjadi coach eksekusi bisnis yang fokus pada bukti pasar dan revenue, bukan membangun sistem yang belum dibutuhkan.
+Revenue Coach mengubah coding agent menjadi coach, strategist, dan execution partner yang fokus pada bukti pasar dan revenue, bukan membangun sistem yang belum dibutuhkan.
 
 ## Instalasi
 
@@ -50,12 +50,38 @@ Untuk membentuk jasa atau freelance offer:
 Gunakan revenue-offer. Bentuk penawaran terkecil yang kredibel dan bisa saya deliver manual sebelum membuat website atau app.
 ```
 
+Untuk menentukan pembagian kerja dengan AI:
+
+```text
+Gunakan revenue-diagnose. Nilai kemampuan dan bukti saya per workstream, lalu pisahkan bagian yang ingin saya pelajari, saya pegang sendiri, saya kerjakan bersama AI, dan saya delegasikan. Jangan menyimpulkan tingkat bantuan hanya dari level skill saya.
+```
+
+Untuk meminta AI benar-benar membuat deliverable:
+
+```text
+Gunakan revenue-execute. Saya ingin menjual social media template. Saya pegang strategi dan final art direction; AI mengerjakan riset niche, raw copy, tiga desain POC yang editable, dan draft listing. Berhenti untuk review setelah POC pertama.
+```
+
+Untuk mencari peluang yang sesuai domisili:
+
+```text
+Gunakan revenue-opportunity-scan. Bandingkan peluang online dan offline yang realistis berdasarkan kondisi, skill, alat, waktu, dan kota saya. Verifikasi opportunity yang masih aktif saat ini.
+```
+
+Untuk jalur lokal seperti ride-hailing:
+
+```text
+Gunakan revenue-local-path. Verifikasi apakah pendaftaran driver tersedia di kota saya, syarat resmi, biaya, estimasi net konservatif, tool pendukung, dan langkah pertama. Jangan mendaftarkan atau mengunggah dokumen tanpa persetujuan saya.
+```
+
 ## Prinsip utama
 
 - Hanya satu eksperimen revenue utama dan maksimal satu aset jangka panjang.
 - Kontak pasar didahulukan daripada branding, planning, dan tooling.
 - App atau automation hanya boleh disarankan jika kebutuhan nyata sudah berulang atau diminta customer berbayar.
 - AI tidak boleh mengirim pesan, mempublikasikan, membeli, atau membuat komitmen eksternal tanpa konfirmasi eksplisit.
+- Kemampuan user, bukti, bagian yang ingin dikuasai, dan tingkat bantuan AI dinilai terpisah per workstream.
+- AI dapat menghasilkan deliverable, menggunakan tool yang tersedia, dan mendelegasikan pekerjaan AI-owned ke subagent jika didukung—tetapi harus mengikuti ownership map dan checkpoint.
 - Ukuran utama adalah cash received dan pergerakan pipeline, bukan jumlah dokumen, prompt, kode, atau jam kerja.
 - Setiap sesi berakhir dengan satu aksi konkret selama 15–45 menit, definisi selesai, dan waktu review.
 

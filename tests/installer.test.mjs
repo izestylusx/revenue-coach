@@ -15,12 +15,12 @@ test("install, inspectable manifest, and recoverable uninstall", async (t) => {
   const cwd = await temporaryDirectory(t);
   const target = path.join(cwd, ".agents", "skills");
   const installed = await installSkills({ target, cwd });
-  assert.equal(installed.skills.length, 7);
+  assert.equal(installed.skills.length, 11);
   assert.ok(await fs.stat(path.join(target, "revenue-coach", "SKILL.md")));
   assert.ok(await fs.stat(path.join(cwd, ".agents", "revenue-coach-install.json")));
 
   const removed = await uninstallSkills({ target, cwd });
-  assert.equal(removed.skills.length, 7);
+  assert.equal(removed.skills.length, 11);
   await assert.rejects(fs.stat(path.join(target, "revenue-coach")));
   assert.ok(await fs.stat(path.join(removed.removedRoot, "revenue-coach", "SKILL.md")));
 });

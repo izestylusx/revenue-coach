@@ -1,6 +1,6 @@
 # Installation
 
-Revenue Coach uses the open Agent Skills format. The installer copies the same seven skill directories to the discovery path expected by the selected agent.
+Revenue Coach uses the open Agent Skills format. The installer copies the same eleven skill directories to the discovery path expected by the selected agent.
 
 ## Requirements
 
@@ -40,14 +40,18 @@ Copy every directory under `skills/` into the product's skill root. The resultin
 <skills-root>/
   revenue-coach/SKILL.md
   revenue-diagnose/SKILL.md
+  revenue-opportunity-scan/SKILL.md
+  revenue-local-path/SKILL.md
   revenue-sprint/SKILL.md
   revenue-daily/SKILL.md
   revenue-offer/SKILL.md
   revenue-outreach/SKILL.md
+  revenue-tool-router/SKILL.md
+  revenue-execute/SKILL.md
   revenue-review/SKILL.md
 ```
 
-Preserve the `references/` directory inside `revenue-coach`.
+Preserve every bundled `references/` directory inside its skill.
 
 ## Updates and collisions
 
